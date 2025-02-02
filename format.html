@@ -1,0 +1,352 @@
+<html>
+    <head>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet"/>
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css" rel="stylesheet" />
+<link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:100" rel="stylesheet" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.12/jquery.mousewheel.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.js"></script>
+       <title>Events | Transcendence 2021</title>
+        <link rel="shortcut icon" type="image/jpg" href="logot%20(1).png"/>
+        <link rel="stylesheet" href = "styles.css">
+        <link rel="stylesheet" href="C:/Users/harsh/Downloads/bootstrap-3.3.7-dist/bootstrap-3.3.7-dist/css/bootstrap.min.css">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+   <style>
+       @font-face{
+    font-family: Mont;
+    src: url(Montserrat-Light.ttf)
+}
+* {
+    font-family: Mont;
+}
+        #navbar {
+  overflow: hidden;
+ /*background-image: linear-gradient(red, rgba(172,0,0,1), rgba(100,0,0,1), rgba(50,0,0,1), black 99%);*/
+    background-color: black;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0px 0px;
+  transition: 0.4s;
+  width: 100%;
+  top: 0;
+  z-index: 3000;
+    border-radius: 5px;
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+    position:relative;
+}
+    #navbar li {
+   align-items: center;
+}
+
+
+#navbar a {
+  color: white;
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+  font-size: 20px; 
+    font-family: Mont;
+  line-height: 87px;
+  border-radius: 4px;
+}
+.navbar-nav.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+}
+@media(max-width:  1500px){
+    .navbar-nav.navbar-center {
+        position: relative;
+        left: 0;
+        transform: translateX(0)
+      }
+    }
+#navbar #logo>img {
+  height: 120px;
+    padding-top: 0px;
+    width: auto;
+    padding-left: 12%;
+    padding-right: 6%;
+    float: left;
+    margin-top: 0px;
+}
+@media(max-width:1200px){
+   #navbar #logo>img {
+  height: 120px;
+    padding-top: 0px;
+    width: auto;
+    padding-left: 0%;
+    padding-right: 6%;
+    float: left;
+    margin-top: 0px;
+} 
+}
+   
+.nav>li>a:focus, .nav>li>a:hover {
+        display: inline-block;
+   text-align: center; 
+        text-decoration: none;
+        background-color: transparent !important;
+    align-items: center;
+  }
+
+    #navbar-centered {
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+         display: inline-block;
+        align-items: center;
+    }
+
+
+    
+@media screen and (max-width: 5080px) {
+  #navbar {
+    padding:0;
+  }
+  #navbar a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  #navbar-right {
+    float: none;
+  }
+    
+    .nav-colored { background-color:#000; }
+.nav-transparent { background-color:transparent;}
+    
+    @media (max-width: 1200px) {
+  .navbar-header {
+      float: none;
+  }
+  .navbar-left,.navbar-right {
+      float: none !important;
+  }
+  .navbar-toggle {
+      display: block;
+      z-index: 3000;
+  }
+  .navbar-collapse {
+      border-top: 1px solid transparent;
+      box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+      background-color: black;
+      z-index: 3000;
+      max-height: 70%;
+  }
+  .navbar-fixed-top {
+      top: 0;
+      border-width: 0 0 1px;
+  }
+  .navbar-collapse.collapse {
+      display: none!important;
+  }
+  .navbar-nav {
+      float: none!important;
+      margin-top: 7.5px;
+  }
+  .navbar-nav>li {
+      float: none;
+  }
+  .navbar-nav>li>a {
+      padding-top: 10px;
+      padding-bottom: 10px;
+  }
+        
+  .collapse.in{
+      display:block !important;
+      background-color: black;
+      z-index: 3000;
+      overflow-y: auto;
+      max-height: 70%;
+  }
+     
+        #bruh{
+            margin-top: 120px;
+        }
+       
+        
+}
+    .button {
+  background-color: white; 
+  color: black;
+  border: 2px solid red; /* Green *//* Green */
+         height: 100px;
+         width: 100px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+         position: relative;
+         border-radius: 100%;
+         margin: 60px;
+        margin-right:0px;
+        margin-left:0;
+}
+    .button1{
+        background-color: white;
+        color: red;
+        border-width: 2px;
+        border-color: red;
+        height: 80px;
+         width: 80px;
+    }
+    .button2{
+        background-color: rgba(0,0,0,0);
+        border-color: white;
+        border-width: 2px;
+        color:white;
+        height: 60px;
+        width: 200px;
+        border-radius: 10px;
+        margin-top: 40px;
+        z-index: 10;
+        position: relative;
+        margin-right:0px;
+        margin-left:0;
+    }
+    .buttonevent{
+        margin-top: 0%;
+    }
+.button1:hover {
+  transform: scale(1.2);
+}
+    .button2:hover {
+  background-color: white;
+        color: red;
+        border-color: 2px solid white;
+}
+        </style>
+    </head>
+    <body>
+        <div id="navbar" style="opacity: 1; background-color: rgba(0,0,0,0.7);">
+<button type="button" data-toggle="collapse" class="navbar-toggle" data-target="#bruh">
+    <a style="margin-top: 0px; margin-right: 0px;padding: 0;" href="#default" id="logo"><span style="font-size: 40px;color: white;">&#9778;</span></a>
+    </button><div class="fade-in"><div style="position: relative;"><a href="" id="logo"><img class="someimg" src="logot%20(1).png"></a></div>
+        <div class="container10" style="position: relative;"><div id="bruh" class="collapse navbar-collapse" style="text-align: center;">
+        <ul class="nav navbar-nav navbar-center">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="format.html">Events</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="regis.html">Register</a></li>
+            <li><a href="rules.html">Rules</a></li>
+            <li><a href="schedule.pdf">Schedule</a></li>
+            <li><a href="team.html">Team</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+            </div></div>
+
+        </div>
+    
+</div>
+        <div class="split-slideshow">
+  <div class="slideshow">
+    <div class="slider">
+      <div class="item">
+        <img src="compressjpeg/Optimized-arbitback-min.jpg" style="width: 1600px;height: auto;"/>
+      </div>
+      <div class="item">
+        <img src="compressjpeg/Optimized-actaback-min.jpg" style="width: 1600px;height: auto;"/>
+      </div>
+        <div class="item">
+        <img src="compressjpeg/Optimized-221back-min.jpg" style="width: 1600px;height: auto;"/>
+      </div>
+        <div class="item">
+        <img src="compressjpeg/Optimized-tacticback-min.jpg" style="width: 1600px;height: auto;"/>
+      </div>
+      <div class="item">
+        <img src="compressjpeg/Optimized-20215-min.jpg" style="width: 1600px;height: auto;"/>
+      </div>
+      <div class="item">
+        <img src="compressjpeg/Optimized-codeback-min.jpg" style="width: 1600px;height: auto;"/>
+      </div>
+        <div class="item">
+        <img src="compressjpeg/Optimized-cosmicback-min.jpg" style="width: 1600px;height: auto;"/>
+      </div>
+        <div class="item">
+        <img src="compressjpeg/Optimized-psychback-min.jpg" style="width: 1600px;height: auto;"/>
+      </div>
+        <div class="item">
+        <img src="compressjpeg/Optimized-acdcback-min.jpg" style="width: 1600px;height: auto;"/>
+      </div>
+      <div class="item">
+        <img src="compressjpeg/Optimized-vivback-min.jpg" style="width: 1600px;height: auto;"/>
+      </div>
+      <div class="item">
+        <img src="compressjpeg/Optimized-zenback-min.jpg" style="width: 1600px;height: auto;"/>
+      </div>
+        <a href="eventx.html"><div class="item">
+        <img src="compressjpeg/Optimized-back-min.jpg" style="width: 1600px;height: auto;"/>
+            </div></a>
+    </div>
+  </div>
+  <div class="slideshow-butt">
+    <div class="item" style="width: 200px;"><a href="arbitrium.html"><button class="button button2">Details</button></a></div>
+    <div class="item" style="width: 200px;"><a href="actadiurna.html"><button class="button button2">Details</button></a></div>
+    <div class="item" style="width: 200px;"><a href="221B.html"><button class="button button2">Details</button></a></div>
+    <div class="item" style="width: 200px;"><a href="tacticus.html"><button class="button button2">Details</button></a></div>
+    <div class="item" style="width: 200px;"><a href="gaming.html"><button class="button button2">Details</button></a></div>
+    <div class="item" style="width: 200px;"><a href="codeblooded.html"><button class="button button2">Details</button></a></div>
+    <div class="item" style="width: 200px;"><a href="cosmicon.html"><button class="button button2">Details</button></a></div>
+    <div class="item" style="width: 200px;"><a href="psychoh.html"><button class="button button2">Details</button></a></div>
+    <div class="item" style="width: 200px;"><a href="acdc.html"><button class="button button2">Details</button></a></div>
+    <div class="item" style="width: 200px;"><a href="viventem.html"><button class="button button2">Details</button></a></div>
+    <div class="item" style="width: 200px;"><a href="zenith.html"><button class="button button2">Details</button></a></div>
+      <div class="item" style="width: 200px;"></div>
+  </div>
+  <div class="slideshow-text">
+    <div class="item" style="text-shadow: 0 0 10px green;">Arbitrium</div>
+    <div class="item" style="text-shadow: 0 0 10px purple;">Acta Diurna</div>
+      <div class="item" style="text-shadow: 0 0 10px ghostwhite;">221B</div>
+    <div class="item" style="text-shadow: 0 0 10px aquamarine;">Tacticus</div>
+    <div class="item" style="text-shadow: 0 0 10px red;">Gaming</div>
+    <div class="item" style="text-shadow: 0 0 10px limegreen;">Code-Blooded</div>
+      <div class="item" style="text-shadow: 0 0 10px blue;">Cosmicon</div>
+      <div class="item" style="text-shadow: 0 0 10px mediumorchid;">PsychOH</div>
+      <div class="item" style="text-shadow: 0 0 10px cyan;">AC/DC</div>
+      <div class="item" style="text-shadow: 0 0 10px orangered;">Viventem</div>
+      <div class="item" style="text-shadow: 0 0 10px violet;">Zenith</div>
+      <div class="item" style="text-shadow: 0 0 10px violet;"></div>
+  </div>
+            <div class="slideshow-logo">
+    <div class="item"><img src="logos/New/final/arbitrium.svg" style="opacity: 0.5;"></div>
+    <div class="item"><img src="logos/New/final/Acta_Diurna_Rectangle.svg" style="width:100%;opacity: 0.5;"></div>
+      <div class="item"><img src="logos/New/final/221B.svg" style="width: 100%;margin-left:0%;padding-top: 25%;padding-bottom: 25%;opacity: 0.5;"></div>
+    <div class="item"><img src="logos/New/final/tacticus.svg" style="width: 61%;padding-bottom: 7%;margin-left: 20%;opacity: 0.5;"></div>
+    <div class="item"><img src="logos/New/final/Gaming.svg" style="opacity: 0.5;"></div>
+    <div class="item"><img src="logos/New/final/codeblooded.svg" style="padding-top: 25%;padding-bottom: 27%;opacity: 0.5;"></div>
+      <div class="item"><img src="logos/New/final/cosmicon.svg" style="padding-bottom: 1%;opacity: 0.5;"></div>
+      <div class="item"><img src="logos/New/final/psychoh%20inverted2.svg" style="width: 80%;margin-left: 10%;padding-bottom: 1%;opacity: 0.5;"></div>
+      <div class="item"><img src="logos/New/final/hardwired.svg" style="opacity: 0.5;"></div>
+      <div class="item"><img src="logos/New/final/viventem.svg" style="opacity: 0.5;"></div>
+      <div class="item"><img src="logos/New/final/zenith.svg" style="width: 90%; margin-left: 5%;opacity: 0.5;"></div>
+      <a href="eventx.html"><div class="item" style="z-index: 200000;opacity:1;"><img src="logos/New/final/eventx.svg" style="padding-top: 25%;padding-bottom: 27%;opacity: 1;z-index: 200000;"></div></a>
+  </div>
+  <div class="slideshow-text-two">
+          <div class="item" style="text-shadow:0 0 9px ghostwhite;">Do you have the wit to rise to the top of the stock market game?</div>
+          <div class="item" style="text-shadow:0 0 9px ghostwhite;">Tell a story with the plethora of information at your fingertips</div>
+          <div class="item" style="text-shadow:0 0 9px ghostwhite;">This event is not for the simple-minded person... or maybe it is</div>
+          <div class="item" style="text-shadow:0 0 9px ghostwhite;">Do you have what it takes to survive the corporate labyrinth?</div>
+          <div class="item" style="text-shadow:0 0 9px ghostwhite;">do you possess the mettle to snatch victory against all odds?</div>
+          <div class="item" style="text-shadow:0 0 9px ghostwhite;">The language of the century, and you have the power to shape it</div>
+          <div class="item" style="text-shadow:0 0 9px ghostwhite;">Boredom is a foreign concept when  you are exploring infinity</div>
+          <div class="item" style="text-shadow:0 0 9px ghostwhite;">The strings of the human brain lie unlocked to those who find them</div>
+          <div class="item" style="text-shadow:0 0 9px ghostwhite;">unleash your creativity to bring your electrifying ideas to life</div>
+          <div class="item" style="text-shadow:0 0 9px ghostwhite;">explore the basic principles of biology and their inherent beauty</div>
+          <div class="item" style="text-shadow:0 0 9px ghostwhite;">the peak of power and success, a fusion of every branch of science</div>
+            <div class="item" style="text-shadow:0 0 9px ghostwhite;"></div> 
+            </div>
+            
+            
+</div>
+<script src = "scroll.js"></script>
+    </body>
+</html>
